@@ -8,23 +8,23 @@ a {
     font-family:'Times New Roman', Times, serif;
 }
 h1{
-    border: 2px solid rgb(209, 58, 199) ;
+    border: 2px solid rgb(75, 43, 73) ;
     padding-bottom:20px ;
     padding-top: 20px;
 }
 h2{
-    border: 2px solid rgb(185, 137, 70); 
+    border: 2px solid rgb(53, 36, 13); 
     padding-bottom:20px;
     padding-top:20px;
 }
 p{
     font-size: 30px;
-    color:rgb(44, 2, 39);
-    font-family: 'Courier New', Courier, monospace;
+    color:rgb(39, 44, 2);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .separate{
     font-size: 15px;
-    color:tomato;
+    color:rgb(125, 31, 14);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 img{
