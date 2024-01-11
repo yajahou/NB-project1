@@ -19,17 +19,15 @@ h2{
 }
 p{
     font-size: 30px;
-    color:rgb(44, 2, 39);
+    color:rgb(96, 16, 87);
     font-family: 'Courier New', Courier, monospace;
 }
-.separate{
-    font-size: 15px;
-    color:tomato;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+
 img{
     height: 500px;
     width: 400px;;
+    
+    
 }
 header{
     padding-right: 4px;
