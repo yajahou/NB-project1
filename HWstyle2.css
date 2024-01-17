@@ -5,7 +5,7 @@ a {
     font-size: 20px;
     color: purple;
     padding: 10px ;
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Kadwa', serif;
 }
 h1{
     border: 2px solid rgb(209, 58, 199) ;
@@ -20,7 +20,7 @@ h2{
 p{
     font-size: 30px;
     color:rgb(96, 16, 87);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Kadwa', serif;
 }
 
 img{
@@ -31,4 +31,8 @@ img{
 }
 header{
     padding-right: 4px;
+}
+li{
+    font-family: 'Kadwa', serif;
+    color: darkslategrey;
 }

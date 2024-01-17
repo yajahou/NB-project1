@@ -1,0 +1,53 @@
+.flex-item{
+    width:23%;
+    height:300px;
+    border-radius: 30px;
+    margin-bottom:40px;
+    background-position: center;
+    background-size:cover ;
+    box-shadow:10px 10px  50px rgb(211, 160, 160) ;
+}
+.flex-item p{
+    background-color: rgb(140, 70, 108);
+    color:#fff;
+    text-align: center;
+}
+
+.parent-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between ;
+}
+
+.gallery-header{
+    text-align: center;
+    font-size: 70px;
+}
+
+.first{
+    background-image: url("https://www.adagya.com/wp-content/uploads/2023/01/How-To-Prepare-Senegalese-Jollof-Rice-Thieboudienne-1200x1475.jpg");
+}
+
+.second{
+    background-image: url("https://www.goupstate.com/gcdn/authoring/2004/05/03/NHEJ/ghows-NC-43990550-5a67-44eb-b044-9eb64fe4265b-f2ce2627.jpeg?width=1200&disable=upscale&format=pjpg&auto=webp");
+}
+.third{
+    background-image: url("https://media.istockphoto.com/id/1189386452/photo/adult-woman-practising-yoga-at-home.jpg?s=612x612&w=0&k=20&c=jNKlF5SMhfWHLzIyp2nfKHeCpAqaEpJE3p2dySvKLv8=");
+}
+
+.fourth{
+    background-image: url("https://images.pexels.com/photos/6281874/pexels-photo-6281874.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+.fifth{
+    background-image: url("https://i0.wp.com/worldmusiccentral.org/wp-content/uploads/Youssou_NDour_AFRIMA-1.jpg?resize=750%2C480&ssl=1");
+}
+.sixth{
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5a13b28590bade9f3649a1e2/1665618464841-KIKKZJPQSQWWZ8T3Q3TD/Facetune_12-10-2022-19-47-09.JPG?format=2500w");
+}
+.seventh{
+    background-image: url("https://images.theconversation.com/files/139426/original/image-20160927-14593-1rf92dt.jpg?ixlib=rb-1.1.0&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip");
+}
+
+.eighth{
+    background-image: url("https://i0.wp.com/communitytechnetwork.org/wp-content/uploads/Volunteer_kate1.png?resize=800%2C563&quality=80&ssl=1");
+}
