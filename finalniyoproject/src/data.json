@@ -1,0 +1,22 @@
+[
+    {
+      "id": 1,
+      "title": "Task One",
+      "description": "This is a sample task",
+      "status": "In Progress",
+      "priority": "Medium",
+      "startDate": "2023-04-01",
+      "endDate": "2023-04-10",
+      "allocatedUser": "Alice"
+    },
+    {
+      "id": 2,
+      "title": "Task Two",
+      "description": "This is another sample task",
+      "status": "Not Started",
+      "priority": "Low",
+      "startDate": "2023-04-11",
+      "endDate": "2023-04-20",
+      "allocatedUser": "Bob"
+    }
+  ]

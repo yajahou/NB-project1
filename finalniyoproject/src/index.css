@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+section {
+  background-color: #f4f1ee;
+  color: #4a4a4a;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: #8a5a44; /* deeper brown for headings */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px; /* space below the label */
+  font-weight: bold;
+  color: #6e503b; /* darker brown for emphasis */
+}
+
+input[type="text"],
+input[type="date"],
+select,
+textarea {
+  width: 100%; /* full width inputs */
+  padding: 8px; /* padding inside inputs */
+  margin-bottom: 20px; /* margin below each input */
+  border: 2px solid transparent; /* updated border styling */
+  background-color: #fff; /* white background for clarity */
+  border-radius: 6px; /* slightly larger rounded corners for a modern look */
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* subtle inner shadow for depth */
+  box-sizing: border-box; /* border-box sizing */
+  transition: border-color 0.3s, box-shadow 0.3s; /* smooth transitions for interactive states */
+}
+
+input[type="text"]::placeholder,
+input[type="date"]::placeholder {
+  color: #a18e7a; /* light brown placeholder text */
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+select:focus,
+textarea:focus {
+  border-color: #9c7c6b; /* focus state border color */
+  box-shadow: 0 0 0 3px rgba(156, 124, 107, 0.25); /* focus ring */
+}
+
+button {
+  background-color: #9c7c6b;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #7f6453;
+  transform: translateY(-2px);
+}
+
+.error-message {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: -15px;
+  margin-bottom: 15px;
+}
